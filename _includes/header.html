@@ -1,0 +1,46 @@
+<!--NAVBAR-->
+<header>
+    <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 bg-dark box-shadow">
+        <a href="/" class="mr-md-auto">
+            <img src="{{ site.url }}/assets/img/Dragon-Signs-Logo.png" class="img-fluid" alt="dragonsigns logo" height="75" >
+        </a>
+
+        <div class="pt-3 nav-text">
+            <p>029 2022 6501  <a class="pl-2" href="mailto:sales@dragonsigns.com">sales@dragonsigns.com</a></p>
+        </div>
+
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                {% if page.active == "home" %}
+                <li class="active"><a href="#">Home</a></li>
+                {% else %}
+                <li><a href="/">Home</a></li>
+                {% endif %}
+
+                {% if page.active == "about" %}
+                <li class="active"><a href="#">About</a></li>
+                {% else %}
+                <li><a href="../about.html">About</a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/dragonsigns" target="_blank" class="fab fa-facebook-f fa-2x"></a>
+            <a href="https://twitter.com/dragon_signs" target="_blank" class="fab fa-twitter fa-2x"></a>
+            <a href="https://plus.google.com/117843347073935131993" target="_blank" class="fab fa-google fa-2x"></a>
+            <a href="https://instagram.com/dragonsigns/" target="_blank" class="fab fa-instagram fa-2x"></a>
+            <a href="mailto:sales@dragonsigns.com" class="fa fa-envelope fa-2x" aria-hidden="true"></a>
+        </div>
+
+    </nav>
+</header>

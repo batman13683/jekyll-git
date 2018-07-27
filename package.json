@@ -1,0 +1,26 @@
+{
+  "name": "site5",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.html",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "grunt": "^1.0.1",
+    "grunt-bootlint": "^0.10.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-image": "^3.0.0",
+    "grunt-purifycss": "^0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node crossbow.js"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.5",
+    "bs-html-injector": "^3.0.3"
+  }
+}

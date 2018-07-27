@@ -1,0 +1,9 @@
+jekyll-minifier:
+  exclude: "*"
+
+jekyll-autoprefixer:
+  exclude: "*"
+
+exclude: ['node_modules']
+
+livereload: true
